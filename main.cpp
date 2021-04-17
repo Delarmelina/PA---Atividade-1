@@ -9,7 +9,7 @@ int main() {
   const char *teclado[8][4] = { {"a", "b","c", "."}, {"d", "e","f", "."}, {"g", "h","i", "."}, {"j", "k","l", "."}, {"m", "n","o", "."}, {"p", "q","r", "s"}, {"t", "u","v","."}, {"w", "x","y", "z"}};
 
   while(1==1){
-    cout << "Digite a palavra que quer escrever: ";
+    cout << "\nDigite a palavra que quer escrever: ";
     cin >> palavra;
 
     for(int L=0 ; L < strlen(palavra) ; L++){
