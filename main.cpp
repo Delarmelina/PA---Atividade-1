@@ -24,8 +24,7 @@ int main() {
 
     cout << "\nDeseja outra palavra? S ou N\nRes: ";
     cin >> res;
-    if(res == *"S"){
-    }else{
+    if(res != *"S"){
       break;
     }
   }
