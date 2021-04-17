@@ -12,6 +12,7 @@ int main() {
     cout << "\nDigite a palavra que quer escrever: ";
     cin >> palavra;
 
+    //Busca letra por letra no teclado e escreve a tecla e a quantidade de cliques correspondentes
     for(int L=0 ; L < strlen(palavra) ; L++){
       for(int i=0;i < 8;i++){
         for(int j=0;j < 4;j++){
@@ -22,6 +23,7 @@ int main() {
       }
     }
 
+    //Torna o codigo autoexecutavel enquanto o usuário desejar
     cout << "\nDeseja outra palavra? S ou N\nRes: ";
     cin >> res;
     if(res != *"S"){
